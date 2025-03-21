@@ -1,31 +1,43 @@
-let name = "John";
-let surname = "Doe";
+const string = "The revolution will not be televised.";
+console.log(string);
 
-console.log(name);
-console.log(surname);
-let age = 11;
-console.log(age); // outputs 11 to the console
+const badString = string;
+console.log(badString);
 
-age = 54;
- 
-console.log(age); // what will be output now?
-const pi = 3.14;
+const single = 'Single quotes';
+const double = "Double quotes";
+const backtick = `Backtick`;
 
-console.log(pi); // What will be output?
-console.log((3 + 2) - 76 * (1 + 1));
-console.log(23 + 97)
-console.log(23 + 97 + 45 + 66 + 9 + (-230))
-console.log((4 + 6 + 9) / 77)
+console.log(single);
+console.log(double);
+console.log(backtick);
 
-let a = 10;
-console.log(a);
+const name = "Chris";
+const greeting = `Hello, ${name}`;
+console.log(greeting); // "Hello, Chris"
 
-a = 27;
+const one = "Hello, ";
+const two = "how are you?";
+const joined = `${one}${two}`;
+console.log(joined); // "Hello, how are you?"
 
-let b = 7 * a;
-console.log(b)
+const song = "Fight the Youth";
+const score = 9;
+const highestScore = 10;
+const output = `I like the song ${song}. I gave it a score of ${
+  (score / highestScore) * 100
+}%.`;
+console.log(output); // "I like the song Fight the Youth. I gave it a score of 90%."
 
-const max = 57;
-const actual = max - 13;
-const percentage = actual / max;
-console.log(percentage);
+const newline = `One day you finally knew
+what you had to do, and began,`;
+console.log(newline);
+
+/*
+One day you finally knew
+what you had to do, and began,
+*/
+
+const bigmouth = 'I\'ve got no right to take my place…';
+console.log(bigmouth);
+

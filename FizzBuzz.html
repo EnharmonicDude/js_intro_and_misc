@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: ")); //if the user enters a number above 1
+
+for (let i = 1; i <= answer; i++) { //go up in +1 steps until you reach the number put in
+  if (i % 3 === 0 && i % 5 === 0) { //if it is divisible without remainder by 3 and 5
+    console.log("FizzBuzz"); // print this
+  } else if (i % 3 === 0) { // otherwise with 3
+    console.log("Fizz"); //print this
+  } else if (i % 5 === 0) { //and with 5
+    console.log("Buzz"); // print this
+  } else { //otherwise just go up in number
+    console.log(i);
+  }
+}
+
+
+    </script>
+</body>
+</html>

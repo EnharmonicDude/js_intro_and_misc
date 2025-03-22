@@ -1,14 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
-    <p>test test test</p>
-    <script src="javascript.js"></script>
+    <script>
+        /*Write a function called add7 that takes one number and returns that number + 7.*/
+        function add7(num){
+            return num + 7;
+        }
 
+        /*Write a function called multiply that takes 2 numbers and returns their product.*/
+        function multiply(num1, num2){
+            return num * num;
+        }
+        /*Write a function called capitalize that takes a string and returns that string with only the first letter capitalized. Make sure that it can take strings that are lowercase, UPPERCASE or BoTh.*/
+        function capitalize(string){
+            if (string.length === 0) {
+                return ""; //seems to be best practice to include!
+            }
+            else {
+                return string[0].toUpperCase() + string.substring[1].toLowerCase();
+            }
+        }
+
+        /*Write a function called lastLetter that takes a string and returns the very last letter of that string:
+        lastLetter("abcd") should return "d"*/
+        function lastLetter(string) {
+        if (string.length === 0) return ""; // Handle empty strings
+        return string.slice(-1); // Extract the last character using negative index
+}
+
+
+    </script>
 </body>
 </html>

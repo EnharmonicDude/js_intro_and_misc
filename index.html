@@ -14,17 +14,21 @@
 
         /*Write a function called multiply that takes 2 numbers and returns their product.*/
         function multiply(num1, num2){
-            return num * num;
+            return num1 * num2;
         }
         /*Write a function called capitalize that takes a string and returns that string with only the first letter capitalized. Make sure that it can take strings that are lowercase, UPPERCASE or BoTh.*/
-        function capitalize(string){
-            if (string.length === 0) {
-                return ""; //seems to be best practice to include!
-            }
-            else {
-                return string[0].toUpperCase() + string.substring[1].toLowerCase();
-            }
-        }
+
+        let word = "hodenkobold";
+
+function capitalize(string) {
+    if (string.length === 0) {
+        return ""; // Handles empty strings
+    } else {
+        return string[0].toUpperCase() + string.substring(1).toLowerCase();
+    }
+}
+
+
 
         /*Write a function called lastLetter that takes a string and returns the very last letter of that string:
         lastLetter("abcd") should return "d"*/
